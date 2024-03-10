@@ -1,15 +1,15 @@
 //  icons
 import {
   FiYoutube,
-  FiInstagram,
+  FiSlack,
   FiGithub,
-  FiDribbble,
   FiLayout,
   FiSettings,
   FiPenTool,
   FiTag,
   FiMail,
   FiMapPin,
+  FiLinkedin,
 } from 'react-icons/fi';
 
 // companies icons
@@ -28,14 +28,14 @@ import Project5 from './assets/img/projects/p5.webp';
 import Project6 from './assets/img/projects/p6.webp';
 
 // skills images
-import SkillImg1 from './assets/img/skills/html5.png';
-import SkillImg2 from './assets/img/skills/css3.png';
-import SkillImg3 from './assets/img/skills/js.png';
-import SkillImg4 from './assets/img/skills/reactjs.png';
-import SkillImg5 from './assets/img/skills/nextjs.png';
-import SkillImg6 from './assets/img/skills/nodejs.png';
-import SkillImg7 from './assets/img/skills/git.png';
-import SkillImg8 from './assets/img/skills/figma.png';
+import aws from './assets/img/skills/aws.png';
+import redis from './assets/img/skills/redis.png';
+import mongodb from './assets/img/skills/mongodb.png';
+import reactjs from './assets/img/skills/reactjs.png';
+import android from './assets/img/skills/android.png';
+import nodejs from './assets/img/skills/nodejs.png';
+import vuejs from './assets/img/skills/vuejs.png';
+import laravel from './assets/img/skills/laravel.png';
 
 // testimonial images
 import TestiImage1 from './assets/img/testimonials/testimonial-1.webp';
@@ -77,7 +77,7 @@ export const social = [
     href: '',
   },
   {
-    icon: <FiInstagram />,
+    icon: <FiSlack />,
     href: '',
   },
   {
@@ -85,7 +85,7 @@ export const social = [
     href: '',
   },
   {
-    icon: <FiDribbble />,
+    icon: <FiLinkedin />,
     href: '',
   },
 ];
@@ -95,22 +95,27 @@ export const brands = [
   {
     img: FreelancerBrandIcon,
     href: '',
+    name: 'Freelancer',
   },
   {
     img: UpworkBrandIcon,
     href: '',
+    name: 'Upwork',
   },
   {
     img: FiverBrandIcon,
     href: '',
+    name: 'Fiver',
   },
   {
     img: BehanceBrandIcon,
     href: '',
+    name: 'Behance',
   },
   {
     img: DribbbleBrandIcon,
     href: '',
+    name: 'Dribbble',
   },
 ];
 
@@ -173,28 +178,28 @@ export const projectsNav = [
 // skill
 export const skills = [
   {
-    image: SkillImg1,
+    image: nodejs,
   },
   {
-    image: SkillImg2,
+    image: laravel,
   },
   {
-    image: SkillImg3,
+    image: reactjs,
   },
   {
-    image: SkillImg4,
+    image: vuejs,
   },
   {
-    image: SkillImg5,
+    image: mongodb,
   },
   {
-    image: SkillImg6,
+    image: redis,
   },
   {
-    image: SkillImg7,
+    image: aws,
   },
   {
-    image: SkillImg8,
+    image: android,
   },
 ];
 
