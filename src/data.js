@@ -1,15 +1,15 @@
 //  icons
 import {
   FiYoutube,
-  FiInstagram,
+  FiSlack,
   FiGithub,
-  FiDribbble,
   FiLayout,
   FiSettings,
   FiPenTool,
   FiTag,
   FiMail,
   FiMapPin,
+  FiLinkedin,
 } from 'react-icons/fi';
 
 // companies icons
@@ -77,7 +77,7 @@ export const social = [
     href: '',
   },
   {
-    icon: <FiInstagram />,
+    icon: <FiSlack />,
     href: '',
   },
   {
@@ -85,7 +85,7 @@ export const social = [
     href: '',
   },
   {
-    icon: <FiDribbble />,
+    icon: <FiLinkedin />,
     href: '',
   },
 ];
@@ -95,22 +95,27 @@ export const brands = [
   {
     img: FreelancerBrandIcon,
     href: '',
+    name: 'Freelancer',
   },
   {
     img: UpworkBrandIcon,
     href: '',
+    name: 'Upwork',
   },
   {
     img: FiverBrandIcon,
     href: '',
+    name: 'Fiver',
   },
   {
     img: BehanceBrandIcon,
     href: '',
+    name: 'Behance',
   },
   {
     img: DribbbleBrandIcon,
     href: '',
+    name: 'Dribbble',
   },
 ];
 
