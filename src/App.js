@@ -1,5 +1,6 @@
 import './App.css';
 import About from './components/About';
+import BackToTop from './components/BackToTop';
 import Brands from './components/Brands';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -23,6 +24,7 @@ function App() {
       <Testimonials />
       <Contact />
       <Footer />
+      <BackToTop />
     </div>
   );
 }
