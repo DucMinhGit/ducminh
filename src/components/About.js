@@ -23,13 +23,13 @@ const About = () => {
               >
                 Duc Minh
               </h2>
-              <p className="mb-4 text-accent">Freelance Web Developer</p>
+              <p className="mb-4 text-accent">Freelancer Software Developer</p>
               <hr className="mb-8 opacity-5" />
               <p className="mb-8">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. eiusmod
-                tempor incididunt ut labore et dolore magna aliqua.
-                <br />
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                I am a self-taught programmer with experience working in web and
+                mobile application development. With 1 year of experience, I
+                have built and deployed numerous successful projects using React
+                Native, React.js, Node.js, and Express.js...
               </p>
             </div>
             <button className="btn btn-md bg-accent hover:bg-accent-hover trasition-all">

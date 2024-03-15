@@ -24,7 +24,7 @@ const Footer = () => {
                 style={{
                   fontFamily: "'Kalam', cursive",
                   fontSize: '45px',
-                  marginTop: '12px',
+                  marginTop: '6px',
                   color: 'white',
                 }}
               >
@@ -33,7 +33,7 @@ const Footer = () => {
             </a>
           </div>
           {/** copyright */}
-          <p>&copy; 2024 Duc Minh . All rights reserved.</p>
+          <p>&copy; 2024 Duc Minh.</p>
         </div>
       </div>
     </footer>
