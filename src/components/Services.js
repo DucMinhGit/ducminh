@@ -17,8 +17,9 @@ const Services = () => {
             What I do for clients
           </h2>
           <p className="subtitle">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. eiusmod
-            tempor incididunt ut labore et dolore magna aliqua.
+            Explore the range of services I offer to clients. From website
+            design and development to mobile app creation and beyond, discover
+            how I can bring your ideas to life and meet your project needs.
           </p>
         </div>
         {/** item grid */}

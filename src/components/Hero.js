@@ -12,18 +12,25 @@ const Hero = () => {
           {/** left side */}
           <div className="flex-1 flex flex-col items-center lg:items-start">
             <p className="text-lg text-accent mb-[22px]">
-              Hey, I&apos;m Minh &#x1F44B;
+              Hello, I&apos;m Minh &#x1F44B;
             </p>
             <h1
               className="text-4xl leading-[44px]
                           md:text-5xl md:leading-[1.2] font-bold
                           md:tracking-[-2px]"
             >
-              I Build & Design <br /> Web Interfaces.
+              <div className="hidden lg:block">
+                I Build & Develop <br /> Your App Ideas.
+              </div>
+              <div className="lg:hidden text-center">
+                <p>I Build & Develop</p>
+                <p>Your App Ideas.</p>
+              </div>
             </h1>
             <p className="pt-4 pb-8 md:pt-6 md:pb-12 max-w-[480px] text-lg text-center lg:text-left">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. eiusmod
-              tempor incididunt ut labore et dolore magna aliqua.
+              I am an experienced programmer in various popular technologies and
+              frameworks. My portfolio is where you can explore the projects
+              I&apos;ve completed and my skills in web development.
             </p>
             <button className="btn btn-md bg-accent hover:bg-accent-hover md:btn-lg transition-all">
               Work with me

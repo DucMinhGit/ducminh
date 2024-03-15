@@ -17,8 +17,10 @@ const Contact = () => {
             Contact me
           </h2>
           <p className="subtitle">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. eiusmod
-            tempor incididunt ut labore et dolore magna aliqua.
+            Get in touch with me to discuss your project, inquire about my
+            services, or simply say hello. I&apos;m here to answer your
+            questions and explore how we can work together to bring your ideas
+            to life.
           </p>
         </div>
         <div className="flex flex-col lg:gap-x-8 lg:flex-row">

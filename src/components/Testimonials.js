@@ -16,8 +16,10 @@ const Testimonials = () => {
             What other people say
           </h2>
           <p className="subtitle">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. eiusmod
-            tempor incididunt ut labore et dolore magna aliqua.
+            Read testimonials and feedback from others who have experienced my
+            work firsthand. Discover what clients, collaborators, and users have
+            to say about their experiences and the results of our
+            collaborations.
           </p>
         </div>
         <TestimonialSlider />
