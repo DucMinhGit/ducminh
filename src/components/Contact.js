@@ -1,7 +1,36 @@
 // import contact data
+import { useState } from 'react';
 import { contact } from '../data';
+import axios from 'axios';
 
 const Contact = () => {
+  const [name, setName] = useState();
+  const [email, setEmail] = useState();
+  const [subject, setSubject] = useState();
+  const [message, setMessage] = useState();
+
+  const sendMail = async (event) => {
+    event.preventDefault();
+    await axios
+      .post(
+        'http://localhost:8888/contact',
+        {
+          params: { name, email, subject, message },
+        },
+        {
+          headers: {
+            'Content-Type': 'application/x-www-form-urlencoded',
+          },
+        }
+      )
+      .then((response) => {
+        return response;
+      })
+      .catch((response) => {
+        return response;
+      });
+  };
+
   return (
     <section id="contact" className="section bg-primary">
       <div className="container mx-auto">
@@ -44,17 +73,36 @@ const Contact = () => {
             })}
           </div>
           {/** form */}
-          <form className="space-y-8 w-full max-w-[780px]">
+          <form className="space-y-8 w-full max-w-[780px]" onSubmit={sendMail}>
             <div className="flex gap-8">
-              <input type="text" className="input" placeholder="Your name" />
-              <input type="email" className="input" placeholder="Your email" />
+              <input
+                type="text"
+                className="input"
+                placeholder="Your name"
+                onChange={(e) => setName(e.target.value)}
+              />
+              <input
+                type="email"
+                className="input"
+                placeholder="Your email"
+                onChange={(e) => setEmail(e.target.value)}
+              />
             </div>
-            <input type="text" className="input" placeholder="Subject" />
+            <input
+              type="text"
+              className="input"
+              placeholder="Subject"
+              onChange={(e) => setSubject(e.target.value)}
+            />
             <textarea
               className="textarea"
               placeholder="Your message"
+              onChange={(e) => setMessage(e.target.value)}
             ></textarea>
-            <button className="btn btn-lg bg-accent hover:bg-accent-hover">
+            <button
+              type="submit"
+              className="btn btn-lg bg-accent hover:bg-accent-hover"
+            >
               Send message
             </button>
           </form>
