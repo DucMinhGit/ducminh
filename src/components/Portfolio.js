@@ -17,8 +17,9 @@ const Portfolio = () => {
             My latest work
           </h2>
           <p className="subtitle">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. eiusmod
-            tempor incididunt ut labore et dolore magna aliqua.
+            Explore my latest projects in web and mobile development. Enjoy the
+            diversity and creativity through unique web and mobile applications
+            designed and developed to meet your needs.
           </p>
         </div>
         <Projects />
